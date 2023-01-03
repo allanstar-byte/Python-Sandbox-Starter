@@ -8,4 +8,15 @@ from time import time
 
 today = datetime.date.today()
 time = time()
-print(today, time)
+# print(today, time)
+
+
+# # Custom Modules
+
+import validator
+
+email = 'allan@gmail.com'
+if validator.validate_email(email):
+    print('Eamil is valid')
+else:
+    print('Eamil is not valid')
