@@ -3,6 +3,9 @@
 # Core modules
 import datetime
 from datetime import date
+# import time
+from time import time
 
 today = datetime.date.today()
-print(toda)
+time = time()
+print(today, time)
